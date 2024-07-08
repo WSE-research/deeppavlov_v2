@@ -18,8 +18,6 @@ ENV CONFIG=$CONFIG
 
 ARG PORT
 ENV PORT $PORT
-ARG LAN
-ENV LAN $LAN
 
 RUN pip install pybind11==2.2.4
 RUN pip install deeppavlov==1.0.0
